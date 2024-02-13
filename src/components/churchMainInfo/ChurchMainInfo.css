@@ -1,0 +1,32 @@
+.church-info .block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 135px 55px;
+}
+.church-info .info {
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.church-info .info__main-text {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: start;
+}
+.church-info .info__line {
+  border: 4px solid #2d1c4d;
+  width: 75px;
+  margin-bottom: 30px;
+}
+.church-info .info__text {
+  font-size: 18px;
+  max-width: 395px;
+  text-align: start;
+  font-family: "Lato";
+  font-weight: 500;
+}/*# sourceMappingURL=ChurchMainInfo.css.map */

@@ -1,0 +1,91 @@
+.join-church {
+    position: relative;
+    .block {
+        height: 870px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-block {
+        width: 760px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+   .join-img  {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+   }
+   .join-main {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 760px;
+    &__text {
+        z-index: 1000;
+    }
+    &__title {
+        color: white;
+        font-size: 56px;
+        font-weight: bold;
+        text-align:start;
+    }
+    &__descr {
+        font-size: 19px;
+        font-family: 'Lato';
+        font-weight: bold;
+        color: #efe4dc;
+        text-align: start;
+        margin-top: 10px;
+    }
+    &__number {
+        font-size: 169px;
+        color: #efe4dc;
+        font-weight: bold;
+    }
+   }
+   .main-line {
+    width: 747px;
+    border: 4px solid #ede0d7;
+    margin-top: 35px;
+    }
+    .join-about {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 760px;
+        position: relative;
+        &__descr {
+            width: 460px;
+            color: #ede0d7;
+            font-size: 17px;text-align: start;
+            margin-top: 40px;
+            margin-right: 70px;
+        }
+        &__line {
+            width: 185px;
+            border-top: 5px dotted  #ede0d7;
+            border-bottom: none;
+            transform: rotate(90deg);
+            margin-top: 10px;
+            position: absolute;
+            left: 375px;
+        }
+        &__main-text {
+            font-size: 32px;
+            color: #ede0d7;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+        &__img {
+            position: absolute;
+            left:480px;
+            top: 7px;
+        }
+    }
+}

@@ -3,8 +3,9 @@
   justify-content: center;
   align-items: center;
 }
-.header .block__main-img {
+.header .block .main-img {
   z-index: 1000;
+  width: 100%;
 }
 .header .main-block {
   position: relative;

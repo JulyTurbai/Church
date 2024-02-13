@@ -1,0 +1,53 @@
+.bible-info__img {
+  width: 275px;
+  margin-top: 10px;
+}
+.bible-info .block {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 170px 60px;
+}
+.bible-info .articals {
+  margin-right: 45px;
+}
+.bible-info .articals__lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bible-info .articals__line1 {
+  width: 395px;
+  border: 12px solid #2d1c4d;
+}
+.bible-info .articals__line2 {
+  width: 465px;
+  border: 4px solid #2d1c4d;
+}
+.bible-info .articals__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  margin-bottom: 46px;
+}
+.bible-info .articals__item {
+  width: 395px;
+  margin-right: 60px;
+}
+.bible-info .articals__item:last-child {
+  margin-right: 0;
+}
+.bible-info .articals__title {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: start;
+}
+.bible-info .articals__descr {
+  font-size: 18px;
+  font-family: "Colibri";
+  font-weight: 500;
+  text-align: start;
+  line-height: 19px;
+}/*# sourceMappingURL=BibleInfo.css.map */

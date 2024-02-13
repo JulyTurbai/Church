@@ -9,7 +9,6 @@ body {
   color: #2d1c4d;
 }
 
-
 body::before {
   content: "";
   position: fixed;
@@ -20,7 +19,7 @@ body::before {
   background-image: url('../public/img/Back.png'); 
   pointer-events: none; 
   z-index: 9999;
-  opacity: 0.20;
+  opacity: 0.18;
   fill: 100%;
 }
 

@@ -10,7 +10,7 @@
     .block-info {
         height: 275px;
         width: 400px;
-        border: 4px solid white;
+        border: 4px solid #ede0d7;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -20,12 +20,12 @@
             font-size: 44px;
             font-family: 'Myriad pro';
             margin-bottom: 30px;
-            color: white;
+            color: #ede0d7;
         }
         &__text {
             width: 335px;
             font-size: 15px;
-            color: white;
+            color: #ede0d7;
             margin-bottom: 30px;
         }
         &__button {
@@ -33,27 +33,27 @@
             width: 215px;
             background: none;
             border-radius: 30px;
-            border: 4px solid white;
+            border: 4px solid #ede0d7;
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
+            color: #ede0d7;
             font-size: 13px;
             font-weight: bold;
             cursor: pointer;
         }
         &__button:hover {
-            background: white;
-            border: 4px solid white;
+            background: #ede0d7;
+            border: 4px solid #ede0d7;
             color: #2d1c4d;
             font-size: 13px;
         }
         &__button--white {
             height: 50px;
             width: 215px;
-            background: white;
+            background: #ede0d7;
             border-radius: 30px;
-            border: 4px solid white;
+            border: 4px solid #ede0d7;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -65,8 +65,8 @@
         }
         &__button--white:hover {
             background: #2d1c4d;
-            color: white;
-            border: 4px solid white;
+            color: #ede0d7;
+            border: 4px solid #ede0d7;
         }
     }
 }
