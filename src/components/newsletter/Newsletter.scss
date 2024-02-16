@@ -1,0 +1,98 @@
+.newsletter {
+    h2 {
+        font-size: 82px;
+    }
+    .block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 190px;
+    }
+    .send {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: none;
+        width: 750px;
+        margin-bottom: 260px;
+        font-size: 20px;
+        font-weight: 200;
+        input {
+            border: none;
+            outline: beige;
+        }
+        label {
+            margin-right: 10px;
+        }
+       .form-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .name-send {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 4px solid #2d1c4d;
+            width: 335px;
+            margin-right: 30px;
+            padding-bottom: 20px;
+        }
+        .last-send {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 4px solid #2d1c4d;
+            width: 335px;
+            padding-bottom: 20px;
+        }
+    }
+        .send-email {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: 705px;
+            border-bottom: 4px solid #2d1c4d;
+            padding: 30px 25px 20px;
+            input{
+                width: 350px;
+                outline: none;
+            }
+                
+        }
+        .send-messege {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: 705px;
+            border-bottom: 4px solid #2d1c4d;
+            padding: 30px 25px 20px;
+            input{
+                 width: 350px;
+            }
+                
+        }
+    }
+    button {
+        width: 300px;
+        height: 60px;
+        background-color: #2d1c4d;
+        color: #eee2d9;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    button:hover {
+        background-color: #eee2d9;
+        color: #2d1c4d;
+        border: 4px solid #2d1c4d;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}

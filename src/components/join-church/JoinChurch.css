@@ -2,7 +2,7 @@
   position: relative;
 }
 .join-church .block {
-  height: 870px;
+  min-height: 870px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -17,6 +17,7 @@
 }
 .join-church .join-img {
   width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -44,11 +45,13 @@
   color: #efe4dc;
   text-align: start;
   margin-top: 10px;
+  font-family: "DM Serif Display", serif;
 }
 .join-church .join-main__number {
   font-size: 169px;
   color: #efe4dc;
   font-weight: bold;
+  font-family: "DM Serif Display", serif;
 }
 .join-church .main-line {
   width: 747px;

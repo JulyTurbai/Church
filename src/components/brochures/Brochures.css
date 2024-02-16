@@ -1,38 +1,34 @@
-.main-info {
-  height: 385px;
-  background-color: #2d1c4d;
+.brochures {
+  height: 330px;
+  background: #2d1c4d;
 }
-.main-info .block {
+.brochures .block {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 55px 25px;
 }
-.main-info .block-info {
-  height: 275px;
-  width: 400px;
-  border: 4px solid #ede0d7;
+.brochures .brochure {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  height: 330px;
 }
-.main-info .block-info__main-text {
+.brochures .brochure__title {
   font-size: 44px;
-  font-family: "Myriad pro";
+  color: #efe3da;
   margin-bottom: 30px;
-  color: #ede0d7;
-  font-family: "DM Serif Display", serif;
 }
-.main-info .block-info__text {
-  width: 335px;
+.brochures .brochure__descr {
   font-size: 15px;
-  color: #ede0d7;
+  width: 335px;
+  color: #efe3da;
+  text-align: center;
   margin-bottom: 30px;
-  font-family: "DM Serif Display", serif;
 }
-.main-info .block-info__button {
+.brochures .brochure__button {
   height: 50px;
   width: 215px;
   background: none;
@@ -47,13 +43,13 @@
   cursor: pointer;
   font-family: "DM Serif Display", serif;
 }
-.main-info .block-info__button:hover {
+.brochures .brochure__button:hover {
   background: #ede0d7;
   border: 4px solid #ede0d7;
   color: #2d1c4d;
   font-size: 13px;
 }
-.main-info .block-info__button--white {
+.brochures .brochure__button--white {
   height: 50px;
   width: 215px;
   background: #ede0d7;
@@ -69,8 +65,27 @@
   cursor: pointer;
   font-family: "DM Serif Display", serif;
 }
-.main-info .block-info__button--white:hover {
+.brochures .brochure__button--white:hover {
   background: #2d1c4d;
   color: #ede0d7;
   border: 4px solid #ede0d7;
-}/*# sourceMappingURL=MainInfo.css.map */
+}
+.brochures .brochure--two {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  width: 50%;
+  height: 330px;
+}
+.brochures .brochure--two img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 330px;
+  z-index: -1;
+}/*# sourceMappingURL=Brochures.css.map */

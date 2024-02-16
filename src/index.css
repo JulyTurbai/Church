@@ -7,6 +7,7 @@
 body {
   background-color: #eee2d9; 
   color: #2d1c4d;
+  font-family: "DM Serif Display", serif;
 }
 
 body::before {

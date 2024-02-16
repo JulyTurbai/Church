@@ -1,0 +1,30 @@
+.articals {
+    .block {
+        padding: 170px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .artical {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__main {
+            text-align: start;
+            margin-left: 35px;
+        }
+        &__title {
+            font-size: 39px;
+            font-weight: bold;
+            color: #2d1c4d;
+            line-height: 39px;
+            margin-bottom: 25px;
+            font-family: "DM Serif Display", serif;
+        }
+        &__text {
+            font-size: 17px;
+            width: 315px;
+            font-family: "DM Serif Display", serif;
+        }
+    }
+}

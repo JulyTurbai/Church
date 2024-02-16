@@ -6,6 +6,10 @@ import ChurchMainInfo from './churchMainInfo/ChurchMainInfo';
 import ChurchSocial from './church-social/ChurchSocial';
 import BibleInfo from './bible-info/BibleInfo';
 import JoinChurch from './join-church/JoinChurch';
+import Articals from './articals/Articals';
+import Brochures from './brochures/Brochures';
+import Comment from './comment/Comment';
+import Newsletter from './newsletter/Newsletter';
 
 const Main = () => {
     return (
@@ -17,6 +21,10 @@ const Main = () => {
             <ChurchSocial/>
             <BibleInfo/>
             <JoinChurch/>
+            <Articals/>
+            <Brochures/>
+            <Comment/>
+            <Newsletter/>
             <Footer/>
 
         </div>

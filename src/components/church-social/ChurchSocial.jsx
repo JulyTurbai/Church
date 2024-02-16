@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ChurchSocial.scss';
 
 const ChurchSocial = () => {
@@ -8,7 +8,7 @@ const ChurchSocial = () => {
         'Heart.png',
         'Star.png',
         'Envelope.png'
-    ]
+    ];
 
     return (
         <div className='church-social'>

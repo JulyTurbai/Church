@@ -1,34 +1,30 @@
-.main-info {
-    height: 385px;
-    background-color: #2d1c4d;
+.brochures {
+    height: 330px;
+    background: #2d1c4d;
     .block {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        padding: 55px 25px;
     }
-    .block-info {
-        height: 275px;
-        width: 400px;
-        border: 4px solid #ede0d7;
+    .brochure {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        &__main-text {
+        width: 50%;
+        height: 330px;
+        &__title {
             font-size: 44px;
-            font-family: 'Myriad pro';
+            color: #efe3da;
             margin-bottom: 30px;
-            color: #ede0d7;
-            font-family: "DM Serif Display", serif;
         }
-        &__text {
-            width: 335px;
+        &__descr {
             font-size: 15px;
-            color: #ede0d7;
+            width: 335px;
+            color: #efe3da;
+            text-align: center;
             margin-bottom: 30px;
-            font-family: "DM Serif Display", serif;
         }
         &__button {
             height: 50px;
@@ -71,6 +67,24 @@
             background: #2d1c4d;
             color: #ede0d7;
             border: 4px solid #ede0d7;
+        }
+    }
+    .brochure--two {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        width: 50%;
+        height: 330px;
+        img {
+            position: absolute;
+            top: 0;left: 0;
+            width: 100%;
+            height: 330px;
+            z-index: -1;
         }
     }
 }

@@ -1,6 +1,6 @@
 .bible-info {
     &__img {
-        width: 275px;
+        width: 100%;
         margin-top: 10px;
     }
     .block {
@@ -28,7 +28,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 85px;
+            margin-top: 53px;
             margin-bottom: 46px;
         }
         &__item {
@@ -43,6 +43,7 @@
             font-weight: bold;
             margin-bottom: 20px;
             text-align: start;
+            font-family: "DM Serif Display", serif;
         }
         &__descr {
             font-size: 18px;
@@ -50,6 +51,7 @@
             font-weight: 500;
             text-align: start;
             line-height: 19px;
+            font-family: "DM Serif Display", serif;
         }
     }
 }

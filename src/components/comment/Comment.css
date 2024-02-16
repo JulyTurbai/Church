@@ -1,0 +1,46 @@
+.comment {
+  color: black;
+}
+.comment .block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.comment .parishioners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 945px;
+}
+.comment .parishioners .parishioner {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.comment .parishioners .parishioner__grades {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 40px;
+}
+.comment .parishioners .parishioner__grades li {
+  margin-right: 30px;
+}
+.comment .parishioners .parishioner__grades li:last-child {
+  margin-right: 0;
+}
+.comment .parishioners .parishioner__name {
+  font-size: 79px;
+  color: #2d1c4d;
+  margin-top: 20px;
+}
+.comment .parishioners .parishioner__text {
+  text-align: start;
+  color: #2d1c4d;
+}
+.comment .parishioners .parishioner__img {
+  width: 20px;
+  color: #2d1c4d;
+}/*# sourceMappingURL=Comment.css.map */

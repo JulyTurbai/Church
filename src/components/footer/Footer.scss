@@ -1,0 +1,39 @@
+.footer {
+    background-color: #2d1c4d;
+    color: #efe4dc;
+    font-size: 19px;
+    .footer-line {
+        width: 950px;
+        border: 4px solid #efe4dc;
+        margin-bottom: 50px;
+    }
+    img {
+        margin-bottom: 40px;
+    }
+    .block {
+        padding: 120px 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu {
+        margin-bottom: 90px;
+        &__block {
+            text-align: start;
+        }
+        &__items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 780px;
+            height: 125px;
+        }
+        &__item {
+            margin-top: 10px;
+            border-bottom: 2px solid #efe4dc;
+        }
+        
+    }
+}

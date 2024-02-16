@@ -1,0 +1,28 @@
+.articals .block {
+  padding: 170px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articals .artical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.articals .artical__main {
+  text-align: start;
+  margin-left: 35px;
+}
+.articals .artical__title {
+  font-size: 39px;
+  font-weight: bold;
+  color: #2d1c4d;
+  line-height: 39px;
+  margin-bottom: 25px;
+  font-family: "DM Serif Display", serif;
+}
+.articals .artical__text {
+  font-size: 17px;
+  width: 315px;
+  font-family: "DM Serif Display", serif;
+}/*# sourceMappingURL=Articals.css.map */
