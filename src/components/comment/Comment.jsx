@@ -17,8 +17,6 @@ const Comment = () => {
             grade: 5
         }
     ]
-
-    console.log(parishioners.name)
     
     return (
         <div className='comment'>
@@ -27,7 +25,6 @@ const Comment = () => {
                     <div className="parishioners">
                     {
                         parishioners.map((item, index) => (
-                            <>
                             <div key={index} className="parishioner">
                                 <img className='parishioner__photo'  src={`${ item.photo }`} alt="" />
                                 <p className='parishioner__name'>{ item.name }</p>
@@ -42,7 +39,6 @@ const Comment = () => {
                                     ))}
                                 </ul>
                             </div>
-                            </>
                         ))
                     }
                     </div>
