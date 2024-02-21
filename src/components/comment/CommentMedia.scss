@@ -1,0 +1,67 @@
+@media(max-width: 975px) {
+    .comment .block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 120px 5px;
+    }
+    .comment .parishioners .parishioner__name {
+        font-size: 65px;
+    }
+}
+
+@media(max-width: 865px) {
+    .comment .parishioners {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .comment .parishioners .parishioner__name {
+        font-size: 65px;
+    }
+    .comment .parishioners .parishioner {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;margin-bottom: 30px;
+    }
+    .comment .block {
+        padding: 80px 5px;
+    }
+}
+
+@media(max-width: 450px) {
+    .comment .block {
+        padding: 50px 5px;
+    }
+    .comment .parishioners {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .comment .parishioners .parishioner__name {
+        font-size: 45px;
+    }
+    .comment .parishioners .parishioner__photo {
+       width: 80%;
+    }
+    .comment .parishioners .parishioner {
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        
+    }
+}
+@media(max-width: 350px) {
+    .comment .parishioners .parishioner__name {
+        font-size: 40px;
+    }
+    .comment .parishioners .parishioner__photo {
+       width: 80%;
+    }
+    .comment .parishioners .parishioner {
+        width: 300px;
+    }
+}

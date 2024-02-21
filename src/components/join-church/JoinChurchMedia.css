@@ -1,1 +1,248 @@
-/*# sourceMappingURL=JoinChurchMedia.css.map */
+@media (max-width: 1280px) {
+  .join-church .block {
+    min-height: 815px;
+  }
+}
+@media (max-width: 1125px) {
+  .join-church .block {
+    min-height: 770px;
+  }
+}
+@media (max-width: 900px) {
+  .join-church .block {
+    min-height: 700px;
+  }
+}
+@media (max-width: 790px) {
+  .join-church .block {
+    min-height: 700px;
+    padding: 0 10px;
+  }
+  .join-church .join-main {
+    width: 700px;
+  }
+  .join-church .join-main__title {
+    font-size: 45px;
+  }
+  .join-church .join-main__number {
+    font-size: 145px;
+  }
+  .join-church .join-about__descr {
+    width: 380px;
+    margin-right: 100px;
+  }
+  .join-church .main-line {
+    width: 700px;
+  }
+  .join-church .join-about__line {
+    left: 320px;
+  }
+  .join-church .join-about__img {
+    left: 432px;
+    top: 30px;
+  }
+  .join-church .main-block {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .join-church .block {
+    min-height: 700px;
+    padding: 0 10px;
+  }
+  .join-church .join-main {
+    width: 600px;
+  }
+  .join-church .join-main__title {
+    font-size: 40px;
+  }
+  .join-church .join-main__number {
+    font-size: 140px;
+  }
+  .join-church .join-about__descr {
+    width: 350px;
+    margin-right: 80px;
+  }
+  .join-church .main-line {
+    width: 600px;
+  }
+  .join-church .join-about__line {
+    left: 270px;
+  }
+  .join-church .join-about__img {
+    left: 410px;
+    top: 94px;
+    width: 30%;
+  }
+  .join-church .join-about__main-text {
+    font-size: 25px;
+  }
+  .join-church .main-block {
+    width: 600px;
+  }
+}
+@media (max-width: 625px) {
+  .join-church .block {
+    min-height: 700px;
+    padding: 0 10px;
+  }
+  .join-church .join-main {
+    width: 500px;
+  }
+  .join-church .join-main__title {
+    font-size: 37px;
+  }
+  .join-church .join-main__number {
+    font-size: 120px;
+  }
+  .join-church .join-about__descr {
+    width: 320px;
+    margin-right: 54px;
+  }
+  .join-church .main-line {
+    width: 500px;
+  }
+  .join-church .join-about__line {
+    left: 243px;
+  }
+  .join-church .join-about__img {
+    left: 349px;
+    top: 94px;
+    width: 30%;
+  }
+  .join-church .join-about__main-text {
+    font-size: 18px;
+  }
+  .join-church .main-block {
+    width: 500px;
+  }
+  .join-church .block {
+    min-height: 550px;
+  }
+}
+@media (max-width: 520px) {
+  .join-church .block {
+    min-height: 600px;
+    padding: 0 10px;
+  }
+  .join-church .join-main {
+    width: 400px;
+  }
+  .join-church .join-main__title {
+    font-size: 30px;
+  }
+  .join-church .join-main__number {
+    font-size: 110px;
+  }
+  .join-church .join-about__descr {
+    width: 320px;
+    margin-right: 30px;
+  }
+  .join-church .main-line {
+    width: 400px;
+  }
+  .join-church .join-about__line {
+    left: 218px;
+  }
+  .join-church .join-about__img {
+    left: 316px;
+    top: 110px;
+    width: 25%;
+  }
+  .join-church .join-about__main-text {
+    font-size: 13px;
+  }
+  .join-church .main-block {
+    width: 400px;
+  }
+  .join-church .block {
+    min-height: 550px;
+  }
+}
+@media (max-width: 445px) {
+  .join-church .block {
+    min-height: 490px;
+    padding: 0 10px;
+  }
+  .join-church .join-main {
+    width: 300px;
+  }
+  .join-church .join-about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 300px;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .join-church .join-main__title {
+    font-size: 23px;
+  }
+  .join-church .join-main__number {
+    font-size: 90px;
+  }
+  .join-church .join-about__descr {
+    width: 320px;
+    margin-right: 30px;
+  }
+  .join-church .main-line {
+    width: 300px;
+  }
+  .join-church .join-about__line {
+    left: 233px;
+    top: 127px;
+  }
+  .join-church .join-about__img {
+    display: none;
+  }
+  .join-church .join-about__main-text {
+    display: none;
+  }
+  .join-church .main-block {
+    width: 300px;
+  }
+}
+@media (max-width: 380px) {
+  .join-church .block {
+    min-height: 490px;
+    padding: 0 10px;
+  }
+  .join-church .join-main {
+    width: 300px;
+  }
+  .join-church .join-about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 300px;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .join-church .join-main__title {
+    font-size: 23px;
+  }
+  .join-church .join-main__number {
+    font-size: 90px;
+  }
+  .join-church .join-about__descr {
+    width: 300px;
+    margin-right: 0;
+  }
+  .join-church .main-line {
+    width: 300px;
+  }
+  .join-church .join-about__line {
+    display: none;
+  }
+  .join-church .join-about__img {
+    display: none;
+  }
+  .join-church .join-about__main-text {
+    display: none;
+  }
+  .join-church .main-block {
+    width: 300px;
+  }
+}/*# sourceMappingURL=JoinChurchMedia.css.map */

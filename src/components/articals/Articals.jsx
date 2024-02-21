@@ -1,5 +1,6 @@
 import React from 'react';
 import './Articals.scss';
+import './ArticalsMedia.scss';
 
 const Articals = () => {
     return (

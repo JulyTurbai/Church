@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"BrochuresMedia.css"}
+{"version":3,"sources":["BrochuresMedia.scss","BrochuresMedia.css"],"names":[],"mappings":"AAAA;EACI;IACI,eAAA;ECCN;EDCE;IACI,aAAA;IACA,uBAAA;IACA,mBAAA;IACA,eAAA;IACA,sBAAA;ECCN;EDCE;IACI,WAAA;ECCN;EDCE;IACI,WAAA;ECCN;AACF;ADEA;EACI;IACI,eAAA;ECAN;EDEE;IACI,aAAA;IACA,uBAAA;IACA,mBAAA;IACA,eAAA;IACA,sBAAA;ECAN;EDEE;IACI,WAAA;ECAN;EDEE;IACI,WAAA;ECAN;EDEE;IACI,YAAA;ECAN;AACF","file":"BrochuresMedia.css"}

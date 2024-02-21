@@ -1,5 +1,6 @@
 import React from 'react';
 import './JoinChurch.scss';
+import './JoinChurchMedia.scss';
 
 const JoinChurch = () => {
     return (

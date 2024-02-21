@@ -1,0 +1,80 @@
+@media (max-width: 1200px) {
+  .church-info .block .main-img {
+    min-width: 50%;
+    height: auto;
+  }
+}
+@media (max-width: 970px) {
+  .church-info .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .church-info .block .main-img {
+    margin-top: 70px;
+  }
+  .church-info .block .info {
+    margin-left: 0;
+  }
+  .church-info .block .info__about {
+    margin: 30px 0;
+  }
+}
+@media (max-width: 700px) {
+  .church-info .info__main-text {
+    font-size: 55px;
+  }
+  .church-info .block .main-img {
+    width: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .church-info .info__main-text {
+    font-size: 55px;
+  }
+  .church-info .block .info__img {
+    width: 400px;
+  }
+  .church-info .block .main-img {
+    width: 450px;
+  }
+}
+@media (max-width: 490px) {
+  .church-info .info__main-text {
+    font-size: 45px;
+  }
+  .church-info .block {
+    padding: 40px 5px;
+  }
+  .church-info .block .info__img {
+    width: 300px;
+  }
+  .church-info .block .main-img {
+    width: 400px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 410px) {
+  .church-info .info__main-text {
+    font-size: 40px;
+  }
+  .church-info .block {
+    padding: 40px 5px;
+  }
+  .church-info .block .info {
+    height: 400px;
+  }
+  .church-info .block .info__img {
+    width: 300px;
+  }
+  .church-info .block .info__text {
+    font-size: 15px;
+  }
+  .church-info .block .main-img {
+    width: 300px;
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=ChurchMainInfoMedia.css.map */

@@ -1,5 +1,6 @@
 import React from 'react';
 import './BibleInfo.scss';
+import './BibleInfoMedia.scss';
 
 const BibleInfo = () => {
     return (
@@ -35,7 +36,7 @@ const BibleInfo = () => {
                                 </p>
                             </li>
                         </ul>
-                        <img src={process.env.PUBLIC_URL + '/img/Bible2.png'}alt="" />
+                        <img className='bible-info__img1' src={process.env.PUBLIC_URL + '/img/Bible2.png'}alt="" />
                     </div>
                     <img className='bible-info__img' src={process.env.PUBLIC_URL + '/img/AnnaDoe.png'}alt="" />
                 </div>

@@ -1,1 +1,53 @@
-/*# sourceMappingURL=ArticalsMedia.css.map */
+@media (max-width: 1400px) {
+  .articals .block {
+    padding: 130px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .articals .artical {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 630px) {
+  .articals .block {
+    padding: 130px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .articals .artical {
+    margin-bottom: 30px;
+  }
+  .articals .artical__title {
+    font-size: 33px;
+  }
+  .articals .artical__text {
+    font-size: 17px;
+    width: 280px;
+  }
+}
+@media (max-width: 600px) {
+  .articals .block {
+    padding: 50px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .articals .artical {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .articals .artical__img {
+    margin-bottom: 20px;
+  }
+  .articals .artical__title {
+    font-size: 33px;
+    margin-bottom: 15px;
+  }
+  .articals .artical__text {
+    font-size: 17px;
+    width: 280px;
+  }
+}/*# sourceMappingURL=ArticalsMedia.css.map */

@@ -1,1 +1,39 @@
-/*# sourceMappingURL=BrochuresMedia.css.map */
+@media (max-width: 680px) {
+  .brochures {
+    height: initial;
+  }
+  .brochures .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .brochures .brochure {
+    width: 100%;
+  }
+  .brochures .brochure--two {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .brochures .brochure__title {
+    font-size: 40px;
+  }
+  .brochures .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .brochures .brochure {
+    width: 100%;
+  }
+  .brochures .brochure--two {
+    width: 100%;
+  }
+  .brochures .brochure__descr {
+    width: 300px;
+  }
+}/*# sourceMappingURL=BrochuresMedia.css.map */

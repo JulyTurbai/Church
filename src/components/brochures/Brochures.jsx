@@ -1,5 +1,6 @@
 import React from 'react';
 import './Brochures.scss';
+import './BrochuresMedia.scss';
 
 const Brochures = () => {
     return (

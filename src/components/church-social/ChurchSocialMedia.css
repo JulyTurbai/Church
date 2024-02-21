@@ -1,0 +1,116 @@
+@media (max-width: 1400px) {
+  .church-social .block {
+    padding-right: 10px;
+  }
+}
+@media (max-width: 1260px) {
+  .church-social__img {
+    margin-right: 70px;
+    width: 650px;
+  }
+}
+@media (max-width: 1170px) {
+  .church-social .block {
+    max-width: 1100px;
+  }
+  .church-social__img {
+    margin-right: 50px;
+    width: 600px;
+  }
+  .church-social .social__item img {
+    width: 50px;
+  }
+  .church-social .social__title {
+    font-size: 37px;
+  }
+  .church-social .social__item {
+    width: 400px;
+  }
+}
+@media (max-width: 1060px) {
+  .church-social .block {
+    max-width: 1100px;
+  }
+  .church-social__img {
+    margin-right: 50px;
+    width: 500px;
+  }
+  .church-social .social__item img {
+    width: 40px;
+  }
+  .church-social .social__title {
+    font-size: 35px;
+  }
+  .church-social .social__item {
+    width: 400px;
+  }
+}
+@media (max-width: 950px) {
+  .church-social .block {
+    padding-right: 0;
+  }
+  .church-social .block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .church-social .social__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  .church-social .social__item {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .church-social__img {
+    margin-right: 0;
+    width: 600px;
+  }
+}
+@media (max-width: 630px) {
+  .church-social__img {
+    margin-right: 0;
+    width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .church-social .social__title {
+    font-size: 30px;
+  }
+  .church-social .social__item {
+    width: 350px;
+  }
+  .church-social .social img {
+    margin-right: 30px;
+    width: 30px;
+  }
+  .church-social__img {
+    margin-right: 0;
+    width: 350px;
+  }
+}
+@media (max-width: 390px) {
+  .church-social .social__title {
+    font-size: 27px;
+  }
+  .church-social .social__item {
+    width: 300px;
+  }
+  .church-social .social img {
+    margin-right: 30px;
+    width: 30px;
+  }
+  .church-social .social__items {
+    padding: 0 5px;
+  }
+  .church-social__img {
+    margin-right: 0;
+    width: 100%;
+  }
+}/*# sourceMappingURL=ChurchSocialMedia.css.map */

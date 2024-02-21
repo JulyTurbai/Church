@@ -1,5 +1,6 @@
 import React from 'react';
 import './Newsletter.scss';
+import './NewsletterMedia.scss';
 
 const Newsletter = () => {
     return (
@@ -11,21 +12,21 @@ const Newsletter = () => {
                         <form className='news' id='news'>
                             <div className="form-main">
                                 <div className="name-send">
-                                    <label for="name">First Name*</label>
+                                    <label htmlFor="name">First Name*</label>
                                     <input className='name' id='name' type="text" name='name'/>
                                 </div>
                                 <div className="last-send">
-                                    <label for="last">Last Name*</label>
+                                    <label htmlFor="last">Last Name*</label>
                                     <input className='last' id='last' type="text" name='last'/>
                                 </div>
                             </div>
                             <div className="send-email">
-                                <label for="email">Email Subject*</label>
+                                <label htmlFor="email">Email Subject*</label>
                                 <input className='email' id='email' type="text" name='email'/>
                             </div>
                             <div className="send-messege">
-                                <label for="message">Type your message here...</label>
-                                <input className='message' id='message' type="text" name='message'/>
+                                <label htmlFor="messege">Type your message here...</label>
+                                <input className='messege' id='message' type="text" name='message'/>
                             </div>
                         </form>
                     </div>

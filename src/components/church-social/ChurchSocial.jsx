@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ChurchSocial.scss';
+import './ChurchSocialMedia.scss';
 
 const ChurchSocial = () => {
 

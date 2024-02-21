@@ -1,4 +1,5 @@
 import './Comment.scss';
+import './CommentMedia.scss';
 
 const Comment = () => {
 
@@ -28,7 +29,7 @@ const Comment = () => {
                         parishioners.map((item, index) => (
                             <>
                             <div key={index} className="parishioner">
-                                <img src={`${ item.photo }`} alt="" />
+                                <img className='parishioner__photo'  src={`${ item.photo }`} alt="" />
                                 <p className='parishioner__name'>{ item.name }</p>
                                <p className='parishioner__text'>
                                     <strong>{ item.comment.split(' ')[0]} { item.comment.split(' ')[1]} { item.comment.split(' ')[2]}</strong> { item.comment.substring(item.comment.indexOf(' ') + 1)}

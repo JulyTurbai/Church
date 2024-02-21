@@ -1,5 +1,6 @@
 import React from 'react';
 import './ChurchMainInfo.scss';
+import './ChurchMainInfoMedia.scss';
 
 const ChurchMainInfo = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import './MainInfo.scss';
+import './MainInfoMedia.scss';
 
 const MainInfo = () => {
     return (
